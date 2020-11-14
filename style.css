@@ -12,7 +12,7 @@ body {
   font-size: 13px;
 }
 
-.container {
+main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(100px, auto);
@@ -115,7 +115,7 @@ span {
 }
 
 @media screen and (max-width: 1200px) {
-  .container {
+  main {
     height: 100vh;
     margin: 7em;
   }
@@ -128,7 +128,7 @@ span {
 }
 
 @media screen and (max-width: 945px) {
-  .container {
+  .main {
     margin: 4.375em 1.5em;
     display: flex;
     flex-direction: column
