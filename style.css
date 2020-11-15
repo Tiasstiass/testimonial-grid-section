@@ -23,7 +23,6 @@ main {
 .box {
   padding: 30px;
   border-radius: 8px;
-  overflow: scroll;
 }
 
 .purple {
@@ -116,7 +115,6 @@ span {
 
 @media screen and (max-width: 1200px) {
   main {
-    height: 100vh;
     margin: 7em;
   }
 
@@ -127,15 +125,11 @@ span {
 
 }
 
-@media screen and (max-width: 945px) {
-  .main {
+@media screen and (max-width: 800px) {
+  main {
     margin: 4.375em 1.5em;
     display: flex;
     flex-direction: column
-  }
-
-  .box {
-    overflow: unset;
   }
 
 }
